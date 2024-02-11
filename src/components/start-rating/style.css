@@ -1,0 +1,10 @@
+.active {
+    color: #f8ce0b;
+}
+.container-start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 100vh;   
+}
