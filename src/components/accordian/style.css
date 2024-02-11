@@ -1,4 +1,4 @@
-.wrapper {
+.wrapper-accordion {
     display: flex;
     height: 100vh;
     width: 100vw;
@@ -6,23 +6,25 @@
     align-items: center;
     flex-direction: column;
     gap: 20px;
+    background-color: #D81E5B;
   }
   
-  .wrapper button {
-      padding: 10px 20px;
-      background: #614101;
+  .wrapper-accordion button {
+      padding: 50px 50px;
+      background: #8721F4;
       color: #fff;
       font-weight: bold;
-      font-size: 20px;
+      font-size: 28px;
       cursor: pointer;
+
   }
   
   .accordian {
-    width: 500px;
+    width: 50%;
   }
   
   .item {
-    background: #614101;
+    background: #F0544F;
     margin-bottom: 10px;
     padding: 10px 20px;
   }
@@ -33,9 +35,11 @@
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
+    font-size: 2rem;
   }
   
   .content {
     color: #ffffff;
     height: auto;
+    font-size: 1.5rem;
   }

@@ -1,0 +1,17 @@
+.action{
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+    background-color: #1a1a1a;
+    margin: 15px;
+    border-radius: 5px;
+}
+.wrapper-random-color{
+    width: 100vw;
+    height: 100vh;
+    background: color;
+}

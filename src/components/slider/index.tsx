@@ -49,14 +49,14 @@ export default function ImageSlider({url,  page=1, limitResult=10}: {url: string
         setCurrentSlide(currentSlide === 0 ? images.length - 1 : (currentSlide - 1))
     }
 
-    if(loading) return <div className="container">Loading...</div>
+    if(loading) return <div className="wrapper-slide">Loading...</div>
 
     if (errorMessage !== null) {
-        return <div className="container"> {errorMessage} </div>
+        return <div className="wrapper-slide"> {errorMessage} </div>
     }
 
     return (
-        <div className="slide-container">
+        <div className="wrapper-slide">
             <div className="container">
             <BsArrowLeftCircleFill onClick={handlePrevius} className="arrow arrow-left"/>
             {

@@ -20,7 +20,7 @@ export default function Accordian() {
         setMultiple(copyMultiple)
         console.log(copyMultiple)
     }
-    return <div className="wrapper">
+    return <div className="wrapper-accordion">
         <button onClick={() => setEnableMultiSelection(!enableMultiSelection)}>
             {
                 enableMultiSelection ? 'Disable Multi Selection': 'Enable Multi Selection' 
