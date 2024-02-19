@@ -10,8 +10,8 @@ import './App.css'
 import QrCodeGenerator from './components/qr-code-generator'
 import LightDarkMode from './components/light-dark-mode'
 import ScroollIndicatior from './components/scroll-indicator'
-import Tabs from './components/custom-tabs/tabs'
 import TabTest from './components/custom-tabs/tab-test'
+import GithubProfile from './components/github-profile'
 
 function App() {
 
@@ -27,6 +27,8 @@ function App() {
       <LightDarkMode/>
       <ScroollIndicatior url={`https://dummyjson.com/products?limit=50`}/>
       <TabTest/>
+      <GithubProfile/>
+      
     </>
   )
 }
