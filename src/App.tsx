@@ -12,6 +12,7 @@ import LightDarkMode from './components/light-dark-mode'
 import ScroollIndicatior from './components/scroll-indicator'
 import TabTest from './components/custom-tabs/tab-test'
 import GithubProfile from './components/github-profile'
+import SearchAutoComplite from './components/search-auto-complite'
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
       <ScroollIndicatior url={`https://dummyjson.com/products?limit=50`}/>
       <TabTest/>
       <GithubProfile/>
+      <SearchAutoComplite/>
       
     </>
   )
