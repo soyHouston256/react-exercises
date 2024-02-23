@@ -13,12 +13,15 @@ import ScroollIndicatior from './components/scroll-indicator'
 import TabTest from './components/custom-tabs/tab-test'
 import GithubProfile from './components/github-profile'
 import SearchAutoComplite from './components/search-auto-complite'
+import FeatureFlagGlobalState from './components/feature-toggle/context'
+import FeatureToggle from './components/feature-toggle'
+import FeatureFlags from './components/feature-toggle'
 
 function App() {
 
   return (
     <>
-      <Accordian/>
+      {/* <Accordian/>
       <RandomColor/>
       <StartRating/>
       <ImageSlider url={'https://picsum.photos/v2/list?'} page={1} limitResult={10}/>
@@ -29,8 +32,11 @@ function App() {
       <ScroollIndicatior url={`https://dummyjson.com/products?limit=50`}/>
       <TabTest/>
       <GithubProfile/>
-      <SearchAutoComplite/>
-      
+      <SearchAutoComplite/> */}
+      <FeatureFlagGlobalState>
+        <FeatureFlags />
+      </FeatureFlagGlobalState>
+
     </>
   )
 }

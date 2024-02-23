@@ -33,7 +33,7 @@ export default function Tabs({tabContent}:{tabContent: TabContent[]}){
                     ))
                 }
             </div>
-            <div className="content">
+            <div className="content-tab">
                 <h3>
                     {
                         tabContent[currentItem] && tabContent[currentItem].content
